@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800');
+
+@font-face {
+    font-family: "LemonMilkbold";
+    src: url(../fonts/lemon_milk/LemonMilkbold.otf);
+}
+
+@font-face {
+    font-family: "PeaceSans";
+    src: url(../fonts/peace_sans/PeaceSans.otf);
+}
+
+@font-face {
+    font-family: "PumpDemiBoldLetPlain";
+    src: url(../fonts/PumpDemi.ttf);
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h2 {
+    font-family: "PeaceSans";
+    color: #494949;
+    font-size: 62px;
+    font-weight: 400;
+    text-align: left;
+}
+
+p {
+    font-family: "Open Sans";
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: auto;
+    background: #ffffff;
+    font-family: "Open sans", sans-serif;
+}
+
+header {
+    background-image: url(../img/PlaceImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+    position: relative;
+}
+
+
+.headertext {
+    mix-blend-mode: multiply;
+    background-color: #a72733;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.headertextover {
+    width: 100%;
+    height: 85px;
+    margin-top: -890px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 93px;
+
+
+}
+
+.readmbut {
+    box-shadow: -4px 11px 40px 0px rgba(0, 1, 1, 0.47);
+    border-radius: 28px;
+    font-family: Lato;
+    font-size: 21px;
+    line-height: 54px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0037);
+    display: flex;
+    justify-content: center;
+    width: 192px;
+    height: 54px;
+    transition-duration: 0.5s;
+
+}
+
+.readmbut:hover {
+    transform: scale(1.1);
+
+}
+
+#whitebut {
+    background-color: #ffffff;
+    width: 192px;
+    height: 54px;
+    color: #242424;
+    margin-left: 30%;
+    margin-top: 38%;
+}
+
+
+
+.logo {
+    font-family: Lato;
+    color: white;
+    font-size: 43px;
+    line-height: 43px;
+    font-weight: 900;
+    text-align: left;
+    transform: scaleX(1.0063);
+    display: flex;
+
+}
+
+.logo:hover {
+    transform: rotate(3deg);
+}
+
+
+.headertext p {
+    font-family: LemonMilkbold;
+    color: white;
+    font-size: 158px;
+    line-height: 127px;
+    font-weight: 400;
+    text-align: center;
+    transform: scaleX(1.0005);
+    margin: 0;
+    margin-bottom: 3.5px;
+}
+
+
+#otb {
+    font-family: LemonMilkbold;
+    color: white;
+    font-size: 96px;
+    line-height: 78px;
+    font-weight: 400;
+    text-align: center;
+    transform: scaleX(1.0005);
+}
+
+.textblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 38%;
+    padding-left: 11%;
+}
+
+#sk8er {
+    width: 857px;
+    height: 957px;
+    background-image: url(../img/ModelImage.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    /*    margin-top: -810px;*/
+
+    /*    position: relative;*/
+    position: absolute;
+    top: 9.6%;
+    left: 46%;
+    z-index: 1;
+}
+
+#sk8er:hover {}
+
+#mybrandnewnavbar {
+    background-color: transparent !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#iconsinnav {
+    padding-left: 56px;
+}
+
+
+.whoweare {
+    height: 576px;
+    width: 100%;
+    background-color: white;
+    background-image: url(../img/Rectangle3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12.5%;
+}
+
+.whowearetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    height: 63%;
+}
+
+.whoweareimg {
+    position: relative;
+    width: 47%;
+    height: 63%;
+}
+
+.redbut {
+    background-color: #bc2e3a;
+    color: white;
+}
+
+
+
+.whoweare p {
+    font-family: "Open Sans";
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+#whatwedo {
+    height: 744px;
+    background-color: #f5f5f5;
+    padding: 6% 7%;
+    background-image: url(../img/Rectangle5copy%2010.png);
+    background-repeat: no-repeat;
+    background-position: left 60%;
+}
+
+#whatwedo h2 {
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+#whatwedo .iconcont {
+    color: white;
+    background: #bd2a37;
+    font-size: 32px;
+    font-weight: 200;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 15px;
+}
+
+#whatwedo h3 {
+    font-family: "Open Sans";
+    color: #6f6f6e;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 5%;
+
+}
+
+#whatwedo p {
+    font-family: "Open Sans";
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+}
+
+
+
+#wwd {
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.howweworks {
+    height: 733px;
+    position: relative;
+    /*
+    background-image: url(../img/Rectangle5copy3.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    overflow: visible;
+*/
+    padding-left: 13.5%;
+    padding-top: 7%;
+}
+
+
+#trianle {
+    position: absolute;
+    right: 0;
+    bottom: -30%;
+    z-index: 0;
+}
+
+#trianlebl {
+    position: absolute;
+    left: 0;
+    bottom: -80.5%;
+    z-index: 0;
+}
+
+.maincontenthww {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.textandbut {
+    width: 27%;
+}
+
+.forimg {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.5%;
+    flex-wrap: wrap;
+}
+
+.forimg #img1 {
+    margin-right: -14.5%;
+}
+
+.forimg #img3 {
+    margin-left: -14.5%;
+}
+
+.textandbut p {
+    font-family: "Open Sans";
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.howweworks h2 {}
+
+
+.ourcreativeteam {
+    height: 795px;
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.ourcreativeteam h2{
+    text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 572px;
+    background-image: url(../img/PlaceImagefooter.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer h2 {
+    font-family: "PeaceSans";
+    color: #9f9f9f;
+    font-size: 61px;
+    font-weight: 400;
+    padding-top: 88px;
+    margin-bottom: 0;
+    padding-bottom: 90px;
+}
+
+footer .epoblock {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 95px;
+}
+
+
+footer .epo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+object {
+    margin-right: 10px;
+}
+
+object:hover {
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}
+
+.textarsvg {
+    float: right;
+}
+
+footer h6 {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer .epo p {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+
+.svgstyle {
+    fill: white;
+}
+
+footer .sociallinks {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+    padding-bottom: 35px;
+
+}
+
+footer .sociallinks .iconcont {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer .sociallinks .iconcont:hover {
+    background: white;
+    color: black;
+}
+
+.footertext {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border-top: 2px solid white;
+    /*    padding-bottom: 55px;*/
+    margin-bottom: 0;
+    /*    padding-top: 33px;*/
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
